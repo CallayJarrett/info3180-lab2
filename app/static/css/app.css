@@ -1,3 +1,67 @@
 body {
     padding-top: 5rem;
 }
+
+#heading {
+    background-color: rgb(64, 129, 64);
+    justify-content: center ;
+    text-align: center;
+    color: white;
+}
+
+.info{
+    font-size: 20px;
+}
+
+
+
+img {
+    border-radius: 50%;
+    width: 20%;
+    height: 30%;
+    padding: 10px;
+}
+
+#bioinfo {
+    justify-content: center;
+    text-align: center;
+}
+
+#numbers h1{
+    display: inline-block;
+    margin-right: 120px;
+
+}
+
+#numbers {
+    justify-content: center ;
+    text-align: center;
+}
+
+#following h3{
+    display: inline-block;
+    margin-right: 65px;
+
+}
+
+#following{
+    justify-content: center ;
+    text-align: center;
+}
+
+#btn {
+    justify-content: center ;
+    text-align: center;  
+}
+
+button {
+    background-color: rgb(7, 241, 7);
+    border-radius:5px;
+    width: 70px;
+    border: none;
+    color: white;
+
+}
+
+  
+  

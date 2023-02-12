@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block css %} 
+<link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
+{% endblock%}
+
+{% block main %}
+<div id="heading">
+    <img id="photo" src= "{{url_for('static', filename='info3180lab2.jpg')}}" alt="An image">
+    <h1 id="name">Callay Jarrett</h1>
+    <h2 class="info">@cjarrett</h2>
+    <h2 class="info">Montego Bay, Jamaica</h2>
+    <h2 class="info">Joined {{joined}}</h2>
+  </div>
+  <div id="bio">
+    <p id="bioinfo">I am an Electronics and Computer Science major. I love curating ideas and concepts.</p>
+  </div>
+  <div id="numbers">
+    <h1>80</h1>
+    <h1>0</h1>
+    <h1>1M</h1>
+   </div>
+   <div id="following">
+    <h3>Posts</h3>
+    <h3>Following</h3>
+    <h3>Followers</h3>
+   </div>
+  <div id="btn">
+    <button>Follow</button>
+  </div>
+{% endblock %}
+    
+  
